@@ -1,0 +1,25 @@
+[[source]]
+name = 'pypi'
+url = 'https://pypi.python.org/simple'
+verify_ssl = true
+
+[pipenv]
+allow_prereleases = true
+
+[packages]
+aiohttp = '*'
+aiohttp-socks = '*'
+beautifulsoup4 = '*'
+dhooks = '*'
+pytz = '*'
+tomlkit = '*'
+websockets = '*'
+wikipedia = '*'
+wolframalpha = '*'
+
+[dev-packages]
+black = "*"
+pylama = "*"
+
+[requires]
+python_version = '3.9'
